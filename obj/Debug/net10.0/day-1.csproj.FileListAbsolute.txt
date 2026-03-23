@@ -1,0 +1,14 @@
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\bin\Debug\net10.0\day-1.exe
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\bin\Debug\net10.0\day-1.deps.json
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\bin\Debug\net10.0\day-1.runtimeconfig.json
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\bin\Debug\net10.0\day-1.dll
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\bin\Debug\net10.0\day-1.pdb
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\day-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\day-1.AssemblyInfoInputs.cache
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\day-1.AssemblyInfo.cs
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\day-1.csproj.CoreCompileInputs.cache
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\day-1.dll
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\refint\day-1.dll
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\day-1.pdb
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\day-1.genruntimeconfig.cache
+C:\Users\murod\Desktop\c#-2\1-month\week-3\day-1\obj\Debug\net10.0\ref\day-1.dll
