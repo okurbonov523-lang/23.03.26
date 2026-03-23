@@ -235,190 +235,173 @@
 
 //  ==================== HomeTask ========================
 
-// // ========== TASK 1 ==========
-// Console.WriteLine("=== TASK 1 ===");
-// List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
-// int sum = 0;
-// for (int i = 0; i < numbers.Count; i++)
-// {
-//     sum = sum + numbers[i];
-// }
-// Console.WriteLine("The sum of all the elements in the list is: " + sum);
-// Console.WriteLine();
+// ========== TASK 1 ==========
+Console.WriteLine("=== TASK 1 ===");
+List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+int sum = 0;
+for (int i = 0; i < numbers.Count; i++)
+{
+    sum = sum + numbers[i];
+}
+Console.WriteLine("The sum of all the elements in the list is: " + sum);
+Console.WriteLine();
 
-// // ========== TASK 2 ==========
-// Console.WriteLine("=== TASK 2 ===");
-// List<string> words = new List<string> { "hello", "world", "!" };
-// string concat = "";
-// for (int i = 0; i < words.Count; i++)
-// {
-//     concat = concat + words[i];
-//     if (i < words.Count - 1)
-//     {
-//         concat = concat + " ";
-//     }
-// }
-// Console.WriteLine("The concatenated string is: " + concat);
-// Console.WriteLine();
+// ========== TASK 2 ==========
+List<string> words = new List<string> { "hello", "world", "!" };
+string concat = "";
+for (int i = 0; i < words.Count; i++)
+{
+    concat = concat + words[i];
+    if (i < words.Count - 1)
+    {
+        concat = concat + " ";
+    }
+}
+Console.WriteLine("The concatenated string is: " + concat);
+Console.WriteLine();
 
-// // ========== TASK 3 ==========
-// Console.WriteLine("=== TASK 3 ===");
-// List<DateTime> dates = new List<DateTime>();
-// dates.Add(new DateTime(2020, 10, 1));
-// dates.Add(new DateTime(2022, 8, 15));
-// dates.Add(new DateTime(2021, 4, 28));
+// ========== TASK 3 ==========
+List<DateTime> dates = new List<DateTime>();
+dates.Add(new DateTime(2020, 10, 1));
+dates.Add(new DateTime(2022, 8, 15));
+dates.Add(new DateTime(2021, 4, 28));
 
-// // Сорт кардан ба тартиби афзоиш (дастӣ)
-// for (int i = 0; i < dates.Count - 1; i++)
-// {
-//     for (int j = i + 1; j < dates.Count; j++)
-//     {
-//         if (dates[i] > dates[j])
-//         {
-//             DateTime temp = dates[i];
-//             dates[i] = dates[j];
-//             dates[j] = temp;
-//         }
-//     }
-// }
+for (int i = 0; i < dates.Count - 1; i++)
+{
+    for (int j = i + 1; j < dates.Count; j++)
+    {
+        if (dates[i] > dates[j])
+        {
+            DateTime temp = dates[i];
+            dates[i] = dates[j];
+            dates[j] = temp;
+        }
+    }
+}
 
-// Console.WriteLine("The sorted dates are:");
-// for (int i = 0; i < dates.Count; i++)
-// {
-//     Console.WriteLine(dates[i].ToString("dd/MM/yyyy"));
-// }
-// Console.WriteLine();
+for (int i = 0; i < dates.Count; i++)
+{
+    Console.WriteLine(dates[i].ToString("dd/MM/yyyy"));
+}
+Console.WriteLine();
 
-// // ========== TASK 4 ==========
-// Console.WriteLine("=== TASK 4 ===");
-// List<double> numbers2 = new List<double> { 3.5, 2.7, 6.9, 1.2 };
-// double total = 0;
-// for (int i = 0; i < numbers2.Count; i++)
-// {
-//     total = total + numbers2[i];
-// }
-// double average = total / numbers2.Count;
-// Console.WriteLine("The average value of all the elements in the list is: " + average);
-// Console.WriteLine();
+// ========== TASK 4 ==========
+List<double> numbers2 = new List<double> { 3.5, 2.7, 6.9, 1.2 };
+double total = 0;
+for (int i = 0; i < numbers2.Count; i++)
+{
+    total = total + numbers2[i];
+}
+double average = total / numbers2.Count;
+Console.WriteLine("The average value of all the elements in the list is: " + average);
+Console.WriteLine();
 
-// // ========== TASK 5 ==========
-// Console.WriteLine("=== TASK 5 ===");
-// List<int> numbers3 = new List<int> { 1, 2, 3, 4, 5 };
-// List<int> evenNumbers = new List<int>();
-// for (int i = 0; i < numbers3.Count; i++)
-// {
-//     if (numbers3[i] % 2 == 0)
-//     {
-//         evenNumbers.Add(numbers3[i]);
-//     }
-// }
-// Console.WriteLine("The filtered numbers are:");
-// for (int i = 0; i < evenNumbers.Count; i++)
-// {
-//     Console.WriteLine(evenNumbers[i]);
-// }
-// Console.WriteLine();
+// ========== TASK 5 ==========
+List<int> numbers3 = new List<int> { 1, 2, 3, 4, 5 };
+List<int> evenNumbers = new List<int>();
+for (int i = 0; i < numbers3.Count; i++)
+{
+    if (numbers3[i] % 2 == 0)
+    {
+        evenNumbers.Add(numbers3[i]);
+    }
+}
+for (int i = 0; i < evenNumbers.Count; i++)
+{
+    Console.WriteLine(evenNumbers[i]);
+}
+Console.WriteLine();
 
-// // ========== TASK 6 ==========
-// Console.WriteLine("=== TASK 6 ===");
-// List<bool> values = new List<bool> { true, true, true };
-// bool allTrue = true;
-// for (int i = 0; i < values.Count; i++)
-// {
-//     if (values[i] == false)
-//     {
-//         allTrue = false;
-//         break;
-//     }
-// }
-// Console.WriteLine("Are all the values in the list true? " + allTrue);
-// Console.WriteLine();
+// ========== TASK 6 ==========
+List<bool> values = new List<bool> { true, true, true };
+bool allTrue = true;
+for (int i = 0; i < values.Count; i++)
+{
+    if (values[i] == false)
+    {
+        allTrue = false;
+        break;
+    }
+}
+Console.WriteLine("Are all the values in the list true? " + allTrue);
+Console.WriteLine();
 
-// // ========== TASK 7 ==========
-// Console.WriteLine("=== TASK 7 ===");
-// List<int> nums = new List<int> { 10, 20, 30, 40, 50 };
-// Console.Write("Before removing: ");
-// for (int i = 0; i < nums.Count; i++)
-// {
-//     Console.Write(nums[i] + " ");
-// }
-// Console.WriteLine();
+// ========== TASK 7 ==========
+List<int> nums = new List<int> { 10, 20, 30, 40, 50 };
+Console.Write("Before removing: ");
+for (int i = 0; i < nums.Count; i++)
+{
+    Console.Write(nums[i] + " ");
+}
+Console.WriteLine();
 
-// // Remove element at index 2 (30)
-// nums.RemoveAt(2);
+nums.RemoveAt(2);
 
-// Console.Write("After removing element at index 2: ");
-// for (int i = 0; i < nums.Count; i++)
-// {
-//     Console.Write(nums[i] + " ");
-// }
-// Console.WriteLine();
+for (int i = 0; i < nums.Count; i++)
+{
+    Console.Write(nums[i] + " ");
+}
+Console.WriteLine();
 
-// // Remove element with value 40
-// nums.Remove(40);
+nums.Remove(40);
 
-// Console.Write("After removing element with value 40: ");
-// for (int i = 0; i < nums.Count; i++)
-// {
-//     Console.Write(nums[i] + " ");
-// }
-// Console.WriteLine();
-// Console.WriteLine();
+for (int i = 0; i < nums.Count; i++)
+{
+    Console.Write(nums[i] + " ");
+}
+Console.WriteLine();
+Console.WriteLine();
 
-// // ========== TASK 8 ==========
-// Console.WriteLine("=== TASK 8 ===");
-// List<int> searchList = new List<int> { 5, 12, 7, 9, 3, 15 };
-// int searchValue = 7;
-// int foundIndex = -1;
-// for (int i = 0; i < searchList.Count; i++)
-// {
-//     if (searchList[i] == searchValue)
-//     {
-//         foundIndex = i;
-//         break;
-//     }
-// }
+// ========== TASK 8 ==========
+List<int> searchList = new List<int> { 5, 12, 7, 9, 3, 15 };
+int searchValue = 7;
+int foundIndex = -1;
+for (int i = 0; i < searchList.Count; i++)
+{
+    if (searchList[i] == searchValue)
+    {
+        foundIndex = i;
+        break;
+    }
+}
 
-// if (foundIndex != -1)
-// {
-//     Console.WriteLine($"Value {searchValue} found at index {foundIndex}");
-// }
-// else
-// {
-//     Console.WriteLine($"Value {searchValue} not found");
-// }
-// Console.WriteLine();
+if (foundIndex != -1)
+{
+    Console.WriteLine($"Value {searchValue} found at index {foundIndex}");
+}
+else
+{
+    Console.WriteLine($"Value {searchValue} not found");
+}
+Console.WriteLine();
 
-// // ========== TASK 9 ==========
-// Console.WriteLine("=== TASK 9 ===");
-// List<string> items = new List<string>();
-// items.Add("Apple");
-// items.Add("Banana");
-// items.Add("Cherry");
-// items.Add("Date");
+// ========== TASK 9 ==========
+List<string> items = new List<string>();
+items.Add("Apple");
+items.Add("Banana");
+items.Add("Cherry");
+items.Add("Date");
 
-// Console.Write("List items: ");
-// for (int i = 0; i < items.Count; i++)
-// {
-//     Console.Write(items[i] + " ");
-// }
-// Console.WriteLine();
-// Console.WriteLine();
+Console.Write("List items: ");
+for (int i = 0; i < items.Count; i++)
+{
+    Console.Write(items[i] + " ");
+}
+Console.WriteLine();
+Console.WriteLine();
 
-// // ========== TASK 10 ==========
-// Console.WriteLine("=== TASK 10 ===");
-// List<int> randomNumbers = new List<int>();
-// Random rand = new Random();
-// for (int i = 0; i < 10; i++)
-// {
-//     int num = rand.Next(1, 101);
-//     randomNumbers.Add(num);
-// }
+// ========== TASK 10 ==========
+List<int> randomNumbers = new List<int>();
+Random rand = new Random();
+for (int i = 0; i < 10; i++)
+{
+    int num = rand.Next(1, 101);
+    randomNumbers.Add(num);
+}
 
-// Console.Write("Random numbers: ");
-// for (int i = 0; i < randomNumbers.Count; i++)
-// {
-//     Console.Write(randomNumbers[i] + " ");
-// }
-// Console.WriteLine();
+for (int i = 0; i < randomNumbers.Count; i++)
+{
+    Console.Write(randomNumbers[i] + " ");
+}
+Console.WriteLine();
 
